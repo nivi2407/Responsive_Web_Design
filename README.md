@@ -1,5 +1,5 @@
 # Responsive_Web_Design
-This Repository contains a collection of projects completed as part of <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">FreeCodeCamp : Responsive Web Design Certification</a> course.
+This Repository contains a collection of projects completed as part of <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" style="text-decoration: none; color: white;">FreeCodeCamp : Responsive Web Design Certification</a> course.
 
 
 ## Project Overview:
@@ -19,5 +19,7 @@ This Repository contains a collection of projects completed as part of <a href="
 5. **Personal Portfolio:**
    - My personal portfolio website, showcasing the projects I've worked on during the FreeCodeCamp Responsive Web Design Certification. The portfolio is designed to be visually appealing and provides links to view each project.
 
-<a href="https://www.freecodecamp.org/certification/Nivetha_S/responsive-web-design">--Project Demo & Certification--</a>
+<button style="padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+  <a href="[https://www.example.com](https://www.freecodecamp.org/certification/Nivetha_S/responsive-web-design)" style="text-decoration: none; color: white;">Project Demo & Certification</a>
+</button>
 
