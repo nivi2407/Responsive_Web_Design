@@ -1,5 +1,5 @@
 # Responsive_Web_Design
-This Repository contains a collection of all projects completed as a part of <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">FreeCodeCamp : Responsive Web Design Certification</a> course.
+This Repository contains a collection of all projects completed as a part of <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" style="text-decoration:none">FreeCodeCamp : Responsive Web Design Certification</a> course.
 ## Project Overview:
 
 1. **Tribute Page:**
