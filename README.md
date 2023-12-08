@@ -20,5 +20,4 @@ This Repository contains a collection of projects completed as part of <a href="
    - My personal portfolio website, showcasing the projects I've worked on during the FreeCodeCamp Responsive Web Design Certification. The portfolio is designed to be visually appealing and provides links to view each project.
 
 
-  <a href="https://www.freecodecamp.org/certification/Nivetha_S/responsive-web-design">Project Demo & Certification</a>
-
+[Project Demo & Certification](https://www.freecodecamp.org/certification/Nivetha_S/responsive-web-design)
