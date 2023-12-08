@@ -1,0 +1,63 @@
+body{
+  
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: linear-gradient( 45deg, rgb(25 28 67), rgb(121 129 171 / 80%) ), url(https://cdn.pixabay.com/photo/2018/04/16/09/30/literature-3324023_640.jpg);
+}
+.sec{
+  margin: 1em auto;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  color: white;
+}
+
+form{
+  background-color: rgb(195 192 201);
+  border: 3px solid rgb(223 232 239);
+  max-width: 700px;
+  min-width: 350px;
+  margin: 0 auto;
+   padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+  font-size: 1rem;
+  
+}
+fieldset{
+  border: none;
+  padding: 15px;
+}
+label{
+  display: block;
+  margin: 0.7rem 0;
+}
+input[type=text],input[type=email],input[type=number]{
+  width: 100%;
+  border: none;
+  padding: 10px;
+}
+select{
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+textarea{
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+#submit{
+  background-color: #868cb3;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}

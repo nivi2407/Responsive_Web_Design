@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="sec">
+        <h1 id="title">BOOK SURVEY FORM</h1>
+        <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    </div>
+    <div>
+        <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">NAME: </label><input type="text" placeholder="Enter your Name" id="name" required>
+            <label id="email-label" for="email">EMAIL: </label><input type="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Enter your Email" required>
+            <label id="number-label" for="number">AGE: </label>
+            <input type="number" id="number" min="18" max="100" placeholder="Age">
+            <label>GENDER: </label>
+            <input type="radio" name="attribute" value="male" checked>Male
+            <input type="radio" name="attribute" value="female">Female<input type="radio" name="attribute" value="other">Other
+            
+            <label>COUNTRY: </label>
+            <select id="dropdown">
+                <option value="">Select an option</option>
+                <option value="1">India</option>
+                <option value="2">U.K</option>
+                <option value="3">U.S.A</option>
+                <option value="4">France</option>
+                <option value="5">Others</option>
+            </select>
+            
+            <label>WHAT KIND OF BOOKS DO YOU LIKE TO READ?</label>
+            <label><input type="checkbox" value="Fantasy">Fantasy</label>
+            <label><input type="checkbox" value="Mystery">Mystery</label>
+            <label><input type="checkbox" value="Thriller">Thriller</label>
+            <label><input type="checkbox" value="Horror">Horror</label>
+            <label><input type="checkbox" value="Romance">Romance</label>
+            <label><input type="checkbox" value="Young Adult">Young Adult</label>
+            <label><input type="checkbox" value="Sci-fi">Sci-fi</label>
+            <label><input type="checkbox" value="Biography">Biography</label>
+            <label><input type="checkbox" value="Historical fiction">Historical Fiction</label>
+            <label><input type="checkbox" value="Non-Fiction">Non-Fiction</label>
+            <label><input type="checkbox" value="Myth">Myth</label>
+            
+            <label> WHERE DO YOU USUALLY GET YOUR BOOKS?</label>
+            <label><input type="radio" name="attribute" value="online" checked>Online book store</label>
+            <label><input type="radio" name="attribute" value="fair">Book Fair</label>
+            <label><input type="radio" name="attribute" value="store">Book Stores</label>
+            <label><input type="radio" name="attribute" value="other">Other</label>
+            <label id="name-label" for="book">WHAT IS YOUR FAVORITE BOOK?</label>
+            <input type="text" id="book" required>
+
+            <label>ADDITIONAL COMMENTS </label>
+            <textarea placeholder="Enter your comment here..." rows="5" cols="50"></textarea>
+            <fieldset><input type="submit" id="submit" value="submit" /></fieldset>    
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>

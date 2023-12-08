@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+  #howit-works{
+      width: 250;
+      height: 100;
+  }
+  
+}
+body{
+  font-family: 'Mukta', sans-serif;
+  background-color: #eceff3;
+}
+/*HEADER*/
+header{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eceff3;
+  width: 100%;
+}
+.logo{
+  width: 30vw;
+}
+.logo > img {
+    width: 80%;
+    height: 100%;
+    max-width: 450px;
+    display: flex;
+    
+}
+
+nav > ul {
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+li{
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+/*SECTION 1*/
+#sec1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20rem;
+  margin-top: 50px; 
+  
+}
+#sec1 > h1 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  font-size: 2rem;
+}
+#sec1 input[type='email'] {
+    border: 2px solid rgb(165, 187, 189);
+    width: 100%;
+    height: 50%;
+    padding: 5px;  
+}
+#sec1 input[type='submit'] {
+    width: 60%;
+    height: 35px;
+    margin: 10px 0;
+    border: 0;
+    background-color: rgb(186, 209, 239);
+    font-weight: 800;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+/*FEATURES SECTION*/
+#features{
+  margin: 0 35px 40px 35px;
+  text-align: left;
+}
+.grid{
+  display: flex; 
+  padding: 20px;
+}
+.icon{
+  color: #167ac6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  width: 20vw;
+}
+#features .des{
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  width: 80vw; 
+}
+/*HOW IT WORKS SECTION*/
+#how-it-works{
+  text-align: center;
+  padding: 15px;
+}
+#video{
+  width: 30rem;
+  height: 18rem;
+}
+/*PRICING SECTION*/
+#pricing{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  height: fit-content;
+  
+}
+.product{
+  border: 1px solid black;
+  margin: 15px;
+  width: calc(100% / 3);
+  border-radius: 3px;
+}
+h4{
+  background-color: rgb(186 184 195);
+  padding: 10px; 
+}
+.product > h2{
+  margin: 10px;
+}
+.product > ol>li{
+  padding: 5px;
+}
+.btn{
+  border: 0;
+  margin: 10px 0;
+  background-color: #98bae7;
+  font-weight: 600;
+  padding: 0 8px;
+  height: 2rem;
+  font-size: 1em;
+}
+/*FOOTER SECTION*/
+footer{
+  background-color: rgb(186 184 195);
+  margin-top: 35px;
+  padding: 10px;
+  text-align: right;
+}
+footer > a,p{
+  padding: 0 10px;
+  font-size: 1em;
+}

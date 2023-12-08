@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>
+
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Getting_Started">Getting Started</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+            <li><a class="nav-link" href="#Control_Flow_Statements">Control Flow Statements</a></li>
+            <li><a class="nav-link" href="#functions">Functions</a></li>
+            <li><a class="nav-link" href="#reference">Reference</a></li>
+
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is a high-level, general-purpose, and very popular programming language. </p>
+                <p>Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting-edge technology in Software Industry.</p>
+                <p>Some of notable python features are: </p>
+                <ul>
+                    <li><b>Readability:</b> Python's syntax is designed to be clear and readable, making it easy for beginners to learn and understand.</li>
+                    <li><b>Versatility:</b> Python is a versatile language used for various applications, including web development, data science, artificial intelligence, machine learning, automation, and more.</li>
+                    <li><b>Community Support:</b> Python has a large and active community of developers. This community contributes to the wealth of libraries, frameworks, and resources available for Python programming.</li>
+                    <li><b>Interpreted Language:</b> Python is an interpreted language, meaning that code can be executed line by line without the need for compilation. This makes it easier to test and debug code.</li>
+                    <li><b>Object-Oriented:</b> Python supports object-oriented programming, allowing for the creation and use of classes and objects.</li>
+                </ul>
+            </article>
+        </section>
+        
+        <section class="main-section" id="Getting_Started">
+            <header>Getting Started</header>
+            <article>
+                <p><b>Installation:</b></p>
+                <p>To start coding in Python, you need to have Python installed on your machine. You can download it from the official <a href="https://www.python.org/downloads/">Python website.</a></p>
+                <p><b>Hello World Example:</b></p>
+                <code>print("Hello, World!")</code>
+                <p><b>Running Python Code:</b></p>
+                <p>Save the above code in a file with a .py extension (e.g., hello.py) and run it from the command line:</p>
+                <code>python hello.py</code>
+            </article>
+        </section>
+        
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>Variables are containers for storing data values.</p>
+                <p>Python has no command for declaring a variable.</p>
+                <p>A variable is created the moment you first assign a value to it.</p>
+                <code>x = 5
+                  y = "John"
+                  print(x)
+                  print(y)</code>
+                <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p>
+                <code>x = 4       # x is of type int
+                  x = "Sally" # x is now of type str
+                  print(x)</code>
+            </article>
+        </section>
+        
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <article>
+                <p>In Python, data types are used to categorize and represent different types of values that a variable can hold. Here are some commonly used data types in Python:</p>
+                <ol>
+                  <li><b>Numeric Type:</b></li>
+                  <ul>
+                    <li><b>Int:</b> Integer data type represents whole numbers without any decimal points.</li>
+                    <li><b>float:</b> Float data type represents real numbers with decimal points.</li>
+                    <li><b>complex:</b> Complex data type represents complex numbers in the form a + bj, where a and b are real numbers and j is the imaginary unit.</li>
+                  </ul>
+                  <li><b>Sring(Str) :</b> String data type represents a sequence of characters, enclosed in single or double quotes.</li>
+                  <li><b>Boolean Type(bool) :</b> Boolean data type represents the truth values True or False</li>
+                  <li><b>Sequence Types:</b></li>
+                  <ul>
+                    <li><b>list:</b> List is an ordered and mutable collection of items.</li>
+                    <li><b>tuple:</b> Tuple is an ordered and immutable collection of items.</li>
+                    <li><b>range:</b> Range is a sequence of numbers often used for iterating in loops.</li>
+                  </ul>
+                  <li><b>Set Types:</b></li>
+                  <ul>
+                    <li><b>set:</b> Set is an unordered and mutable collection of unique items.</li>
+                    <li><b>frozenset:</b> Frozenset is an unordered and immutable collection of unique items.</li>
+                  </ul>
+                  <li><b>Mapping Type:</b></li>
+                  <ul>
+                    <li><b>dict:</b> Dictionary is an unordered and mutable collection of key-value pairs.</li>
+                  </ul>
+                  <li><b>NoneType:</b> The None type represents the absence of a value or a null value.</li>
+                  
+                </ol>
+            </article>
+        </section>
+        <section class="main-section" id="Control_Flow_Statements">
+          <header>Control Flow Statements</header>
+          <article>
+            <p><b>if-else Statements:</b></p>
+            <code>if condition:
+              # code to execute if condition is True
+          else:
+              # code to execute if condition is False</code>
+            <p><b>elif Statements:</b></p>
+            <p>Used to check multiple conditions in a chained manner.</p>
+            <code>if condition1:
+    # code to execute if condition1 is True
+elif condition2:
+    # code to execute if condition2 is True
+else:
+    # code to execute if all conditions are False
+            </code>
+            <p><b>while Loop:</b></p>
+            <code>while condition:
+              # code to execute while condition is True</code>
+              <p><b>for Loop:</b></p>
+            <code>for variable in sequence:
+              # code to execute for each element in the sequence</code>
+              <p><b>break and continue Statements:</b></p>
+              
+                <p>break is used to exit a loop prematurely.</p>
+                <p>>continue is used to skip the rest of the code inside a loop and move to the next iteration.</p>
+              
+                <code>for i in range(10):
+                  if i == 5:
+                      break  # exit the loop when i is 5
+                  print(i)</code>
+              
+              <p><b>pass Statement:</b></p>
+              <code>x = 10
+                if x > 0:
+                    pass  # placeholder, no action needed
+                else:
+                    print("Non-positive number")</code>
+          </article>
+          
+
+        </section>
+        <section class="main-section" id="functions">
+          <header>Functions</header>
+          <article>
+            <p>Python Functions is a block of statements that return the specific task. The idea is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again for different inputs, we can do the function calls to reuse code contained in it over and over again.</p>
+            <p><b>Defining a Function:</b></p>
+            <p>In Python, you define a function using the def keyword, followed by the function name and a set of parentheses. The function may also have parameters (input values) and a return statement (output value).</p>
+            <code>def greet(name):
+              """This function prints a simple greeting."""
+              print("Hello, " + name + "!")</code>
+            <p><b>Calling a Function:</b></p>
+            <p>To use a function, you call it by its name and provide the required arguments.</p>
+            <code>greet("Alice")</code>
+            <p><b>Function with Return Value:</b></p>
+            <p>A function can return a value using the return statement.</p>
+            <code>def add_numbers(x, y):
+              """This function returns the sum of two numbers."""
+              return x + y</code>
+            <p>You can capture the returned value when calling the function.</p>
+            <code>result = add_numbers(3, 5)
+                print(result)  # Output: 8</code>
+            <p><b>Default Parameters:</b></p>
+            <p>You can set default values for function parameters.</p>
+            <code>def power(base, exponent=2):
+              """This function calculates the power of a number."""
+              return base ** exponent</code>
+          </article>
+          
+        </section>
+        <section class="main-section" id="reference">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>For more refer <a href="https://www.python.org/">python.org</a></li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+</body>
+</html>
