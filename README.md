@@ -7,7 +7,7 @@ This Repository contains a collection of projects completed as part of <a href="
 1. **Tribute Page:**
    - A simple tribute page dedicated to honoring the achievements of a notable individual. The page is designed to be responsive, ensuring a seamless viewing experience on different devices.
 
-2. <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">Survey Form:</a>
+2. **<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">Survey Form:</a>**
    - An interactive survey form that showcases my ability to create and style form elements. The form is designed to be user-friendly and accessible on various screen sizes.
 
 3. **Product Landing Page:**
