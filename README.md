@@ -24,4 +24,4 @@ This repository contains a collection of projects completed as part of the
 
 
 ## 🎓 Project Demo & Certification
-🔗 https://www.freecodecamp.org/certification/Nivetha_S/responsive-web-design
+🔗 https://www.freecodecamp.org/certification/nivetha_s/responsive-web-design
